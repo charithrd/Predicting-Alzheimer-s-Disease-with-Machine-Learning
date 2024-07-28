@@ -1,5 +1,3 @@
-# Predicting Alzheimer's Disease with Machine Learning
-
 ![Cover](Assets/Alzheimers.jfif)
 
 ## Research Topic
