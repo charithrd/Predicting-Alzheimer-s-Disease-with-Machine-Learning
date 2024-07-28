@@ -68,3 +68,9 @@ The dataset used for this research was obtained from the Kaggle platform.
 * The head() function is also from the pandas library is used to display the first 15 rows of a DataFrame, allowing us to evaluate if the right data type is available for analysis.
 ![Data_Head](Assets/Data_Head.png)
 
+This dataset contains personally identifiable information (PII). Complying with Art. 7 of the GDPR “the controller shall be able to demonstrate that the data subject has consented to processing of his or her personal data” (Intersoft Consulting, 2016).
+
+However, this is a publicly available dummy data source used only to express learning outcomes. Hence data privacy conformity is not within the scope.
+
+* Using the df.dtypes attribute returns a Series with the data type of each column in the DataFrame. This helps to understand correct type of data is stored in each column, which is crucial for data analysis and preprocessing tasks.
+
