@@ -60,4 +60,5 @@ The dataset used for this research was obtained from the Kaggle platform.
 * describe - key statistics of each column
 * isnull - checking for null values (completeness data dimension)
 
-
+![Data_Structure](Assets/Data Structure.png)
+* The shape of the data set contains 35 columns and 2,149 rows.
