@@ -60,7 +60,9 @@ The dataset used for this research was obtained from the Kaggle platform.
 * describe - key statistics of each column
 * isnull - checking for null values (completeness data dimension)
 
+
 * The shape of the data set contains 35 columns and 2,149 rows.
+
 ![Data_Structure](Assets/Structure.png)
 
 * The head() function returns the first 15 rows from the data frame, allowing us to evaluate if the right data type is available for analysis.
