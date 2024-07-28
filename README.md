@@ -61,7 +61,7 @@ The dataset used for this research was obtained from the Kaggle platform.
 * isnull - checking for null values (completeness data dimension)
 
 ============================================================================================
-* The shape of the data set contains 35 columns and 2,149 rows.
+* The attribute shape from the pandas library is used to get the dimensions (number of rows and columns) of the DataFrame. The data set contains 35 columns and 2,149 rows.
 
 ![Data_Structure](Assets/Structure.png)
 
