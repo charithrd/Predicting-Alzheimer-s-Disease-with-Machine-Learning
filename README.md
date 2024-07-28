@@ -73,4 +73,4 @@ This dataset contains personally identifiable information (PII). Complying with 
 However, this is a publicly available dummy data source used only to express learning outcomes. Hence data privacy conformity is not within the scope.
 
 * Using the df.dtypes attribute returns a Series with the data type of each column in the DataFrame. This helps to understand correct type of data is stored in each column, which is crucial for data analysis and preprocessing tasks.
-
+![Data_Types](Assets/DTypes.png)
