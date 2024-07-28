@@ -39,3 +39,8 @@ The dataset used for this research was obtained from the Kaggle platform.
 •	DOI (Digital Object Identifier) Citation: Rabie El Kharoua. (2024). 🧠 Alzheimer's Disease Dataset 🧠 [Data set]. Kaggle. https://doi.org/10.34740/KAGGLE/DSV/8668279
 
 ### ETL Diagram
+![ETL](Assets/etl_diagram.png)
+
+## Chapter 4: Data Analysis
+
+### 4.1 Importing required Python Libraries
