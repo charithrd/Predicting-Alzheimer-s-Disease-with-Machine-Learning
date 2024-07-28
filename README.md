@@ -1,5 +1,7 @@
 # Predicting Alzheimer's Disease with Machine Learning
 
+![Cover](Assets/Alzheimers.jfif)
+
 ## Research Topic
 •	What is the effectiveness of using the Random Forest Classifier for early prediction of Alzheimer's Disease compared to other machine learning models? 
 
