@@ -48,3 +48,16 @@ The dataset used for this research was obtained from the Kaggle platform.
 
 ### 4.2 Loading CSV Data
 ![CSV_Data](Assets/CSV_Loading.png)
+
+* Used the pandas library to read a CSV (Comma-Separated Values) file and load its contents into a DataFrame defined as 'df'.
+
+
+### 4.3 Understanding the Data
+
+* shape - structure of data (rows, columns)
+* head - reading the data (first 25 rows)
+* dtypes - data type of each column
+* describe - key statistics of each column
+* isnull - checking for null values (completeness data dimension)
+
+
