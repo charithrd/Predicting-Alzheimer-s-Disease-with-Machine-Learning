@@ -44,3 +44,6 @@ The dataset used for this research was obtained from the Kaggle platform.
 ## Chapter 4: Data Analysis
 
 ### 4.1 Importing required Python Libraries
+![Libraries](Assets/Libraries.png)
+
+### 4.2 Loading CSV Data
