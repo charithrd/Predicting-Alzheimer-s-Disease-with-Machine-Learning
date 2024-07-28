@@ -65,6 +65,6 @@ The dataset used for this research was obtained from the Kaggle platform.
 
 ![Data_Structure](Assets/Structure.png)
 
-* The head() function returns the first 15 rows from the data frame, allowing us to evaluate if the right data type is available for analysis.
+* The head() function is also from the pandas library is used to display the first 15 rows of a DataFrame, allowing us to evaluate if the right data type is available for analysis.
 ![Data_Head](Assets/Data_Head.png)
 
