@@ -47,3 +47,4 @@ The dataset used for this research was obtained from the Kaggle platform.
 ![Libraries](Assets/Libraries.png)
 
 ### 4.2 Loading CSV Data
+![CSV_Data](Assets/CSV_Loading.png)
