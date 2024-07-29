@@ -116,11 +116,25 @@ Mendlem, S. (2023) claims that “Exploratory Data Analysis (EDA) serves as the 
 #### Check for Duplicates:
 * Identify and remove any duplicate entries in the dataset to ensure data quality and accuracy.
 
+![Data_Duplicated](Assets/DDuplicated.png)
+
 #### Data Drop (Irrelevant Columns):
-* Remove columns that do not contribute to the analysis or model development to streamline the dataset and focus on relevant features.
+* We have used a subsetted data frame to drop non-essential columns and assign them to a new data frame. This provides code clarity for future maintenance and streamline the dataset to focus on relevant features.
+
+![Data_Drop](Assets/DDrop.png)
 
 #### Quick EDA with Sweetviz:
-* Utilize Sweetviz, a Python library, to quickly generate comprehensive visualizations and summaries of the dataset for a better understanding of data distribution and relationships.
+* Emerging open-source EDA libraries like ‘Sweetviz’ allow us to gain quick insights about data with minimal code. This will add "the edge to efficiency of your industrial ML and data analytics projects” (Vyshnya 2020). In contrast, when analyzing large datasets “readability and interpretation of the association graph becomes difficult” (Lekhwar 2020).
+
+![Sweetviz](Assets/Sweetviz.png)
+
+![Sweetviz Results](Assets/SweetvizOut1.png)
+
+* Immediately, we can see there are no duplicates in our dataset. 19 columns are categorical and 16 are numerical.
+
+* The Association Matrix below explains the numerical correlations. Functional Assessment and ADL briefly show a strong correlation. We’ll verify this with Seaborn Heatmap at a later stage.
+
+![Sweetviz Results](Assets/SweetvizOut2.png)
 
 #### Plot the Distribution of Numerical Features:
 * Visualize the distribution of numerical variables to identify patterns, outliers, and the overall spread of the data.
