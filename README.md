@@ -58,7 +58,7 @@ The dataset used for this research was obtained from the Kaggle platform.
 * describe - key statistics of each column
 * isnull - checking for null values (completeness data dimension)
 
-============================================================================================
+=========================================================================================
 * The attribute shape from the pandas library is used to get the dimensions (number of rows and columns) of the DataFrame. The data set contains 35 columns and 2,149 rows.
 
 ![Data_Structure](Assets/Structure.png)
@@ -72,6 +72,10 @@ This dataset contains personally identifiable information (PII). Complying with 
 However, this is a publicly available dummy data source used only to express learning outcomes. Hence data privacy conformity is not within the scope.
 
 
-
 * Using the df.dtypes attribute returns a Series with the data type of each column in the DataFrame. This helps to understand correct type of data is stored in each column, which is crucial for data analysis and preprocessing tasks.
 ![Data_Types](Assets/DTypes.png)
+
+* ‘Describe’ function within the pandas' data frame “Displays the Descriptive Summary Statistics of the data when invoked” (Venkataramanan, 2021). np.transpose() function, imported from the NumPy library, is used to transpose the rows and columns of a matrix. incorporating with the output of df.describe() function, swaps the rows and columns, effectively rotating the descriptive statistics DataFrame.
+
+These summary statistics help us to evaluate any outliers that may exist within the data.
+
