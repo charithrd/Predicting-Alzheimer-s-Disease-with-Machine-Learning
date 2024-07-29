@@ -101,7 +101,9 @@ However, this is a publicly available dummy data source used only to express lea
 These statistical summaries provide insights into the dataset's composition, outliers and variability, helpful for further analysis or modeling.
 
 * We have applied the isnull () function verifying the ‘Completeness’ data quality dimension, as “missing data will have an impact on its use and affect the reliability of insights” (GOV.UK, 2021).
+
 ![Data_Describe](Assets/NullValues.png)
+
 
 ### 4.4 Exploratory Data Analysis
 
