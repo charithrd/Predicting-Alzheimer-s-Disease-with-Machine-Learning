@@ -111,3 +111,24 @@ The next stage of this analysis is to delve into comprehensive data patterns and
 
 Mendlem, S. (2023) claims that “Exploratory Data Analysis (EDA) serves as the compass that guides data scientists through the intricate terrain of datasets”. 
 
+### Key Steps:
+
+#### Check for Duplicates:
+* Identify and remove any duplicate entries in the dataset to ensure data quality and accuracy.
+
+#### Data Drop (Irrelevant Columns):
+* Remove columns that do not contribute to the analysis or model development to streamline the dataset and focus on relevant features.
+
+#### Quick EDA with Sweetviz:
+* Utilize Sweetviz, a Python library, to quickly generate comprehensive visualizations and summaries of the dataset for a better understanding of data distribution and relationships.
+
+#### Plot the Distribution of Numerical Features:
+* Visualize the distribution of numerical variables to identify patterns, outliers, and the overall spread of the data.
+
+#### Identifying Key Features for Diagnosis:
+* Determine which features are most relevant and influential in diagnosing conditions or predicting outcomes to improve model performance and interpretability.
+
+#### Univariate Analysis:
+* Perform a detailed analysis of each individual variable to understand its distribution, central tendency, variability, and potential impact on the target variable.
+  
+These steps aim to prepare and understand the dataset thoroughly before moving on to more complex analyses or model building.
