@@ -77,7 +77,7 @@ However, this is a publicly available dummy data source used only to express lea
 
 * ‘Describe’ function within the pandas' data frame “Displays the Descriptive Summary Statistics of the data when invoked” (Venkataramanan, 2021). np.transpose() function, imported from the NumPy library, is used to transpose the rows and columns of a matrix. incorporating with the output of df.describe() function, swaps the rows and columns, effectively rotating the descriptive statistics DataFrame.
 
-![Data_Types](Assets/DDescribe.png)
+![Data_Describe](Assets/DDescribe.png)
   
 #### Key Observations:
 
@@ -99,4 +99,13 @@ However, this is a publicly available dummy data source used only to express lea
 * Average blood pressure and cholesterol levels are within typical ranges but show substantial variation.
 
 These statistical summaries provide insights into the dataset's composition, outliers and variability, helpful for further analysis or modeling.
+
+* We have applied the isnull () function verifying the ‘Completeness’ data quality dimension, as “missing data will have an impact on its use and affect the reliability of insights” (GOV.UK, 2021).
+![Data_Describe](Assets/NullValues.png)
+
+### 4.4 Exploratory Data Analysis
+
+The next stage of this analysis is to delve into comprehensive data patterns and relationships associated with the data.
+
+Mendlem, S. (2023) claims that “Exploratory Data Analysis (EDA) serves as the compass that guides data scientists through the intricate terrain of datasets”. 
 
