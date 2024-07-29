@@ -76,6 +76,25 @@ However, this is a publicly available dummy data source used only to express lea
 ![Data_Types](Assets/DTypes.png)
 
 * ‘Describe’ function within the pandas' data frame “Displays the Descriptive Summary Statistics of the data when invoked” (Venkataramanan, 2021). np.transpose() function, imported from the NumPy library, is used to transpose the rows and columns of a matrix. incorporating with the output of df.describe() function, swaps the rows and columns, effectively rotating the descriptive statistics DataFrame.
+  
+#### Key Observations:
 
-These summary statistics help us to evaluate any outliers that may exist within the data.
+Patient Demographics:
+Age distribution is skewed towards older individuals (mean age around 75 years).
+Gender distribution is roughly balanced.
+
+Health Indicators:
+Average BMI suggests a population with a range from normal to overweight/obese.
+Relatively low prevalence of smoking and physical activity.
+
+Lifestyle Factors:
+Alcohol consumption and diet quality show wide variability.
+
+Health Conditions:
+Low prevalence of chronic conditions like cardiovascular disease, diabetes, hypertension, and depression.
+
+Blood Pressure and Cholesterol:
+Average blood pressure and cholesterol levels are within typical ranges but show substantial variation.
+
+These statistical summaries provide insights into the dataset's composition, outliers and variability, helpful for further analysis or modeling.
 
