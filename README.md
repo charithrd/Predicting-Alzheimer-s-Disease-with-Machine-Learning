@@ -180,6 +180,6 @@ Mendlem, S. (2023) claims that “Exploratory Data Analysis (EDA) serves as the 
 
 ![Seaborn Distribution Plot](Assets/DGenderDist.png)
 
-  - Both genders are equally distributed.
+ - Both genders are equally distributed.
   
 * Following these steps sets the grounds in understanding the dataset thoroughly before moving on to more complex analyses or model building.
