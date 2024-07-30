@@ -154,6 +154,13 @@ Mendlem, S. (2023) claims that “Exploratory Data Analysis (EDA) serves as the 
 
 ![Seaborn Distribution Plot](Assets/DHeatmap.png)
 
+* As per the correlation matrix below features are identified as the best explanable insights with diagnosis.
+  - MMSE - Mini-Mental State Examination Score
+  - Functional Asssessment Score
+  - Memory Complaints
+  - Behavioral Problems
+  - ADL - Activities of Daily Living Score
+
 #### Univariate Analysis:
 * Perform a detailed analysis of each individual variable to understand its distribution, central tendency, variability, and potential impact on the target variable.
   
