@@ -162,6 +162,18 @@ Mendlem, S. (2023) claims that “Exploratory Data Analysis (EDA) serves as the 
   - ADL - Activities of Daily Living Score
 
 #### Univariate Analysis:
-* Perform a detailed analysis of each individual variable to understand its distribution, central tendency, variability, and potential impact on the target variable.
+* Performing a detailed analysis of individual variables allow us to understand its distribution, central tendency, variability, and potential impact on the target variable.
+
+* Frequency of age distribution is illustrated using seaborn barplot.
+
+![Seaborn Distribution Plot](Assets/DAge.png)
+
+![Seaborn Distribution Plot](Assets/DAgeDist.png)
+
+ - Age distribution range from 60 to 90 years.
+ - The distribution shows a fairly uniform spread across the age range, with slight peaks at ages 74-76 and 89-90.
+ - This suggests that the dataset has a consistent representation of individuals in this age group, with few significant outliers.
+
+* Gender Distribution is also represented using seaborn barplot.
   
 These steps aim to prepare and understand the dataset thoroughly before moving on to more complex analyses or model building.
