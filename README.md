@@ -175,5 +175,11 @@ Mendlem, S. (2023) claims that “Exploratory Data Analysis (EDA) serves as the 
  - This suggests that the dataset has a consistent representation of individuals in this age group, with few significant outliers.
 
 * Gender Distribution is also represented using seaborn barplot.
+
+![Seaborn Distribution Plot](Assets/DGender.png)
+
+![Seaborn Distribution Plot](Assets/DGenderDist.png)
+
+  - Both genders are equally distributed.
   
-These steps aim to prepare and understand the dataset thoroughly before moving on to more complex analyses or model building.
+* Following these steps sets the grounds in understanding the dataset thoroughly before moving on to more complex analyses or model building.
