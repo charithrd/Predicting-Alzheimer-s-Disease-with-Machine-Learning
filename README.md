@@ -137,7 +137,14 @@ Mendlem, S. (2023) claims that “Exploratory Data Analysis (EDA) serves as the 
 ![Sweetviz Results](Assets/SweetvizOut2.png)
 
 #### Plot the Distribution of Numerical Features:
-* Visualize the distribution of numerical variables to identify patterns, outliers, and the overall spread of the data.
+
+* Below code configures the plot style with Seaborn library, creates histograms for all columns in the DataFrame (df) with specified aesthetics, adjusts the layout to prevent overlap, and finally displays the plot.
+
+![Seaborn Distribution Plot](Assets/DHist.png)
+
+* Each histogram tells a story. Overall most of the features have a uniform distribution suggesting a balanced dataset across those variables.
+
+![Seaborn Distribution Plot](Assets/DHistPlot.png)
 
 #### Identifying Key Features for Diagnosis:
 * Determine which features are most relevant and influential in diagnosing conditions or predicting outcomes to improve model performance and interpretability.
