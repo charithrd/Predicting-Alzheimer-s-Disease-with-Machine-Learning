@@ -147,7 +147,12 @@ Mendlem, S. (2023) claims that “Exploratory Data Analysis (EDA) serves as the 
 ![Seaborn Distribution Plot](Assets/DHistPlot.png)
 
 #### Identifying Key Features for Diagnosis:
-* Determine which features are most relevant and influential in diagnosing conditions or predicting outcomes to improve model performance and interpretability.
+* Determining which features are most relevant and influential in diagnosing conditions or predicting outcomes is key to improve model performance and interpretability.
+* Hence we have applied a heatmap of the correlation matrix of the dataFrame using the Seaborn and Matplotlib libraries.
+
+![Seaborn Distribution Plot](Assets/DCorrMatrix.png)
+
+![Seaborn Distribution Plot](Assets/DHeatmap.png)
 
 #### Univariate Analysis:
 * Perform a detailed analysis of each individual variable to understand its distribution, central tendency, variability, and potential impact on the target variable.
