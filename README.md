@@ -8,6 +8,14 @@
 
 [Literature Review](#Chapter-2-Literature-Review)
 
+[ETL Diagram](#Chapter-3-Data-Source-and-ETL-Flow)
+
+[Data Analysis](#Chapter-4-Data-Analysis)
+
+[Conclusion](#Chapter-5-Conclusion)
+
+[Bibliography](#Bibliography)
+
 
 ## Research Topic
 •	What is the effectiveness of using the Random Forest Classifier for early prediction of Alzheimer's Disease compared to other machine learning models? 
@@ -37,7 +45,7 @@ Furthermore, “Standard decision tree classifiers have the disadvantage that th
 Prediction power and model accuracy are the key measures in choosing an algorithm for the selected data set. Hence the random forest (RF) method has been identified as the optimal approach to predicting the machine learning outcome for Alzheimer's Disease.
 
 
-## Chapter 3: Data Source and ETL Flow
+## Chapter 3 Data Source and ETL Flow
 
 The dataset used for this research was obtained from the Kaggle platform.
 
@@ -48,7 +56,7 @@ The dataset used for this research was obtained from the Kaggle platform.
 ### ETL Diagram
 ![ETL](Assets/etl_diagram.png)
 
-## Chapter 4: Data Analysis
+## Chapter 4 Data Analysis
 
 ### 4.1 Importing required Python Libraries
 ![Libraries](Assets/Libraries.png)
