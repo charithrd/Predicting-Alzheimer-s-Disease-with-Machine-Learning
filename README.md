@@ -214,3 +214,22 @@ A logistic regression model is created and trained using the train data created 
 ![Logistic Regression](Assets/LClassificationReport.png)
 
 * Logistic Regression Accuracy Score = 82%
+
+#### Method 02: Random Forest Classifier
+
+We are now deploying random forest classifier method which combines multiple decision trees to improve classification accuracy and robustness.
+
+![Random Forest Classifier](Assets/RFClassifier.png)
+
+By setting the 'random state' we can ensure that the same results are achieved at each time code is run.
+
+![Confusion Matrix](Assets/ConfusionMatrix.png)
+
+![Confusion Matrix Results](Assets/ConfusionMatrixII.png)
+
+![Random Forest Classification Report](Assets/RFClassificationReport.png)
+
+  - Random Forest Classifier Accuracy Score = 91%, indicating that 91% of the total instances are correctly classified.
+  - Precision vs. Recall: For class 0 (negative), recall is very high (0.98), meaning most actual true negative instances are identified, but precision is slightly lower (0.88). For class 1 (positive), precision     is very high (0.95), but recall is significantly lower (0.79), indicating that while most predictions of true positives are correct, a notable portion of actual true positive instances are missed.
+  - The F1-scores reflect a good balance between precision and recall, but the lower F1-score for positives (0.86) suggests the model could benefit from improvements in recall for positive instances.
+  - Overall, the Random Forest classifier shows strong performance, particularly in terms of accuracy and precision.
