@@ -230,6 +230,48 @@ By setting the 'random state' we can ensure that the same results are achieved a
 ![Random Forest Classification Report](Assets/RFClassificationReport.png)
 
   - Random Forest Classifier Accuracy Score = 91%, indicating that 91% of the total instances are correctly classified.
-  - Precision vs. Recall: For class 0 (negative), recall is very high (0.98), meaning most actual true negative instances are identified, but precision is slightly lower (0.88). For class 1 (positive), precision     is very high (0.95), but recall is significantly lower (0.79), indicating that while most predictions of true positives are correct, a notable portion of actual true positive instances are missed.
+  - Precision vs. Recall: For class 0 (negative), recall is very high (0.98), meaning most actual true negative instances are identified, but precision is slightly lower (0.88). For class 1 (positive), precision     is       very high (0.95), but recall is significantly lower (0.79), indicating that while most predictions of true positives are correct, a notable portion of actual true positive instances are missed.
   - The F1-scores reflect a good balance between precision and recall, but the lower F1-score for positives (0.86) suggests the model could benefit from improvements in recall for positive instances.
   - Overall, the Random Forest classifier shows strong performance, particularly in terms of accuracy and precision.
+
+
+## Chapter 5: Conclusion
+
+Even though model accuracy is 91%, I have identified below techniques that could further improve model performance.
+
+Advanced ensemble methods such as Gradient Boosting and XGBoost could be combined with Random Forest to create a more robust model. Research by González-Recio et al. (2013) explains Gradient Boosting “showed similar or higher accuracy than other methods, such as Bayes A or Bayesian LASSO”
+
+“A model that would just repeat the labels of the samples that it has just seen would have a perfect score but would fail to predict anything useful on yet-unseen data.” (scikit-learn.org, n.d.). Hence with upskilling my Python skills, I aim to adopt k-fold cross-validation to ensure the model's performance is consistent across different data subsets and Grid Search to find the optimal parameters.
+
+
+## Bibliography
+
+Alpaydin, E., 2021. Machine learning. MIT press.
+
+Azar, A.T., Elshazly, H.I., Hassanien, A.E. and Elkorany, A.M., 2014. A random forest classifier for lymph diseases. Computer methods and programs in biomedicine, 113(2), pp.465-473.
+
+González-Recio, O., Jiménez-Montero, J.A. and Alenda, R., 2013. The gradient boosting algorithm and random boosting for genome-assisted evaluation in large data sets. Journal of dairy science, 96(1), pp.614-624.
+
+GOV.UK, 2021. Meet the data quality dimensions [online] Available at: https://www.gov.uk/government/news/meet-the-data-quality-dimensions [Accessed 05 July 2024]
+
+Intersoft Consulting, 2016.GDPR [online] Available at: https://gdpr-info.eu/art-7-gdpr/ [Accessed 07 July 2024]
+
+Jackins, V., Vimal, S., Kaliappan, M. and Lee, M.Y., 2021. AI-based smart prediction of clinical disease using random forest classifier and Naive Bayes. The Journal of Supercomputing, 77(5), pp.5198-5219.
+
+Kharoua, R.E., 2024. Alzheimer's Disease Dataset. [online] Available at: https://www.kaggle.com/datasets/rabieelkharoua/alzheimers-disease-dataset/discussion/513158 [Accessed 01 July 2024]
+
+Lekhwar, S., 2020. Sweetviz: Exploratory Data Analysis made sweet. [online]. Available at: https://medium.com/@shubhamlekhwar/sweetviz-exploratory-data-analysis-made-sweet-21309de6973 [Accessed 07 July 2024]
+
+Mahesh, B., 2020. Machine learning algorithms-a review. International Journal of Science and Research (IJSR).[Internet], 9(1), pp.381-386.
+
+Mandlem, S., 2023. The Vital Role of Exploratory Data Analysis (EDA) in Data Science [online]. Medium. Last updated: 18 December 2023. Available at: https://medium.com/@satya.sujji123/the-vital-role-of-exploratory-data-analysis-eda-in-data-science-23bc5a706358 [Accessed 05 July 2024]
+
+Scikit-learn.org, n.d. 3.1. Cross-validation: evaluating estimator performance [online] Available at: https://scikit-learn.org/stable/modules/cross_validation.html [Accessed 09 July 2024]
+
+Singh, A., Halgamuge, M.N. and Lakshmiganthan, R., 2017. Impact of different data types on classifier performance of random forest, naive bayes, and k-nearest neighbors algorithms. International Journal of Advanced Computer Science and Applications, 8(12).
+
+Venkataramanan, M., 2021. Leveraging the way you interpret the “Descriptive Statistics” in Python ! [online] Available at: https://medium.com/@muralimanohar6/leveraging-the-way-you-interpret-the-descriptive-statistics-in-python-bd2111fb5211 [Accessed 05 July 2024]
+
+Vyshnya, G., 2020. PROs and CONs of Rapid EDA Tools [online] Available at: https://medium.com/sbc-group-blog/pros-and-cons-of-rapid-eda-tools-e1ccd159ab07 [Accessed 07 July 2024]
+
+Wood, T., (n.d). Random Forests. [online] Available at: https://deepai.org/machine-learning-glossary-and-terms/random-forest [Accessed 04 July 2024]
