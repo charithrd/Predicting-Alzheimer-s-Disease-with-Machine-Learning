@@ -183,3 +183,34 @@ Mendlem, S. (2023) claims that “Exploratory Data Analysis (EDA) serves as the 
  - Both genders are equally distributed.
   
 * Following these steps sets the grounds in understanding the dataset thoroughly before moving on to more complex analyses or model building.
+
+### 4.5 Binary Classification Methods
+
+#### Features and Target Split
+We are defining model features and target variable with below step. In summary, we are seperating the original dataset (df) into two parts.
+ * features - all the columns except the 'Diagnosis' column.
+ * target - contains only the values from the 'Diagnosis' column.
+
+![Model Features](Assets/ModelFeatures.png)
+
+#### Standardizing features
+Scaling features to have a mean of 0 and a standard deviation of 1.
+Ensure that each feature contributes equally to a algorythm and improves the convergence speed and accuracy of the model.
+
+![Standard Scaler](Assets/StdScaler.png)
+
+#### Test and Train Data Split
+
+30% of the data will be used for testing, and the remaining 70% will be used for training
+
+![Test Train Split](Assets/LTTSplit.png)
+
+#### Method 01: Logistic Regression
+
+A logistic regression model is created and trained using the train data created earlier. The model is then promoted to predict the labels for the test dataset.
+
+![Logistic Regression](Assets/LRegression.png)
+
+![Logistic Regression](Assets/LClassificationReport.png)
+
+* Logistic Regression Accuracy Score = 82%
