@@ -2,9 +2,9 @@
 
 ## Table of Contents
 
-[Research Topic](## Research Topic)
+[Research Topic](#Research-Topic)
 
-[Executive Summary](## Chapter 1: Executive Summary)
+[Executive Summary](#Chapter-1:-Executive-Summary)
 
 
 ## Research Topic
