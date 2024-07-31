@@ -1,5 +1,12 @@
 ![Cover](Assets/Alzheimers.jfif)
 
+## Table of Contents
+
+[Research Topic](## Research Topic)
+
+[Executive Summary](## Chapter 1: Executive Summary)
+
+
 ## Research Topic
 •	What is the effectiveness of using the Random Forest Classifier for early prediction of Alzheimer's Disease compared to other machine learning models? 
 
