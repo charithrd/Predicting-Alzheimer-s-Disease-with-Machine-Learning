@@ -4,7 +4,9 @@
 
 [Research Topic](#Research-Topic)
 
-[Executive Summary](#Chapter-1:-Executive-Summary)
+[Executive Summary](#Chapter-1-Executive-Summary)
+
+[Literature Review](#Chapter-2-Literature-Review)
 
 
 ## Research Topic
@@ -13,7 +15,7 @@
 •	Which features are most influential in predicting the development of Alzheimer's Disease?
 
 
-## Chapter 1: Executive Summary
+## Chapter 1 Executive Summary
 This project represents a significant step towards leveraging machine learning for proactive healthcare. 
 This project has used the Random Forest Classifier to predict the likelihood of an individual developing Alzheimer's Disease in the future. Alzheimer's Disease is a progressive neurological disorder that impacts memory, thinking, and behaviour, and early prediction is crucial for intervention and management strategies. 
 The model accuracy score is 91%, indicating that 91% of the total instances are correctly classified.
@@ -21,7 +23,7 @@ The model accuracy score is 91%, indicating that 91% of the total instances are 
 For future iterations aim to apply k-fold cross-validation and Grid Search techniques avoiding overfitting issues. Advanced ensemble boosting methods can also be combined with Random Forest to create a more robust model.
 
 
-## Chapter 2: Literature Review
+## Chapter 2 Literature Review
 
 ### 2.1 Machine Learning Algorithms
 Machine learning (ML) algorithms are computational methods that enable machines to learn from data and make decisions or predictions based on that data. “A system that is in a changing environment should have the ability to learn” (Alpaydin, 2021). Hence machine learning is a form of artificial intelligence that evolves with learning outcomes.
