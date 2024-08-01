@@ -1,4 +1,4 @@
-![Cover](Assets/Alzheimers.jfif)
+![Header Imagery](Assets/Alzheimers.jfif)
 
 ## Table of Contents
 
