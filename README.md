@@ -50,7 +50,7 @@ Prediction power and model accuracy are the key measures in choosing an algorith
 ### ELT Diagram
 ![ETL](Assets/etl_diagram.png)
 
-Figure 3.1 outlines the data flow from the source to the final analytical phase. Below are the various stages involved.
+Above figure outlines the data flow from the source to the final analytical phase. Below are the various stages involved.
 
  - Extraction: The data source is the Kaggle platform, downloaded in CSV format and saved on a local drive.
 
