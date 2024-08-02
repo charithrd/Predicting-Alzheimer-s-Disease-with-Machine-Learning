@@ -47,14 +47,19 @@ Prediction power and model accuracy are the key measures in choosing an algorith
 
 ## Chapter 3 Data Source and ETL Flow
 
-The dataset used for this research was obtained from the Kaggle platform.
-
-•	Path to Dataset: https://www.kaggle.com/datasets/rabieelkharoua/alzheimers-disease-dataset
-
-•	DOI (Digital Object Identifier) Citation: Rabie El Kharoua. (2024). 🧠 Alzheimer's Disease Dataset 🧠 [Data set]. Kaggle. https://doi.org/10.34740/KAGGLE/DSV/8668279
-
 ### ETL Diagram
 ![ETL](Assets/etl_diagram.png)
+
+Figure 3.1 outlines the data flow from the source to the final analytical phase. Below are the various stages involved.
+
+Extraction: The data source is the Kaggle platform, downloaded in CSV format and saved on a local drive.
+•	Path to Dataset: https://www.kaggle.com/datasets/rabieelkharoua/alzheimers-disease-dataset
+•	DOI (Digital Object Identifier) Citation: Rabie El Kharoua. (2024). 🧠 Alzheimer's Disease Dataset 🧠 [Data set]. Kaggle. https://doi.org/10.34740/KAGGLE/DSV/8668279
+
+Load: The CSV data is then loaded into a Jupyter Notebook using a pandas data frame for further analysis and evaluation.
+
+Transformation: This is where the data analysis and modelling are carried out, including data quality checks, Exploratory Data Analysis (EDA) and Model building and evaluation.
+
 
 ## Chapter 4 Data Analysis
 
