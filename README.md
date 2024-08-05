@@ -165,7 +165,16 @@ Mendlem, S. (2023) claims that “Exploratory Data Analysis (EDA) serves as the 
 
 ![Seaborn Distribution Plot](Assets/DHist.png)
 
-* Each histogram tells a story. Overall most of the features have a uniform distribution suggesting a balanced dataset across those variables.
+The insights derived from the histograms provide the following key statistics on the distribution.
+
+•	Functional Assessment Score – range of scores indicates the variability among individuals. This allows the machine-learning model to learn the traces between different levels of functional deficiencies. 
+
+•	MMSE Score – follows a uniform distribution between 10 and 30. This helps build a model that can distinguish between different levels of mental function.
+
+•	Memory Complaints – most individuals do not report memory losses. A niche group with complaints can help the model identify early signs of Alzheimer's by relying on other subtle features.
+
+Overall, the distribution and variability of features explain a comprehensive and diverse dataset. This could in turn develop a predictive model with high accuracy level.
+
 
 ![Seaborn Distribution Plot](Assets/DHistPlot.png)
 
@@ -177,12 +186,33 @@ Mendlem, S. (2023) claims that “Exploratory Data Analysis (EDA) serves as the 
 
 ![Seaborn Distribution Plot](Assets/DHeatmap.png)
 
-* As per the correlation matrix below features are identified as the best explanable insights with diagnosis.
-  - MMSE - Mini-Mental State Examination Score
-  - Functional Asssessment Score
-  - Memory Complaints
-  - Behavioral Problems
-  - ADL - Activities of Daily Living Score
+#### Key takeaways from the correlation matrix that help with the diagnosis.
+The colour intensity indicates the strength  and direction of the correlations between pairs of variables.
+
+##### Notable Positive Correlations
+* ADL - Activities of Daily Living Score & Functional Asssessment Score:
+  
+  The dark greenish sqaures represnts a stronger correlation  between these variables.
+  
+  Consistent monitoring of these metrics can identify early cognitive decline, which could progress to Alzheimer's.
+    
+* Memory Complaints & MMSE - Mini-Mental State Examination Score:
+  
+  Mild correlation is present indicated by darker shades.
+  
+  By promoting individuals to report any memory concerns can also help with early diagnosis.
+  
+* Behavioral Problems:
+  
+  It is recommended to observe changes in behaviour given the positive correlation.
+  
+  Early identification can lead to further evaluation and intervention.
+
+##### Notable Negative Correlations
+Negative correlated variabled such as education level, BMI & sleep quality act as protective measures
+against risk of the disease.
+
+Many cells with very light shades or almost white represents weak or no correlation.
 
 #### Univariate Analysis:
 * Performing a detailed analysis of individual variables allow us to understand its distribution, central tendency, variability, and potential impact on the target variable.
