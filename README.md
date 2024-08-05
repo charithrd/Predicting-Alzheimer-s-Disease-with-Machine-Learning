@@ -165,7 +165,9 @@ Mendlem, S. (2023) claims that “Exploratory Data Analysis (EDA) serves as the 
 
 ![Seaborn Distribution Plot](Assets/DHist.png)
 
-The insights derived from the histograms provide the following key statistics on the distribution.
+![Seaborn Distribution Plot](Assets/DHistPlot.png)
+
+#### The insights derived from the histograms provide the following key statistics on the distribution.
 
 •	Functional Assessment Score – range of scores indicates the variability among individuals. This allows the machine-learning model to learn the traces between different levels of functional deficiencies. 
 
@@ -176,7 +178,6 @@ The insights derived from the histograms provide the following key statistics on
 Overall, the distribution and variability of features explain a comprehensive and diverse dataset. This could in turn develop a predictive model with high accuracy level.
 
 
-![Seaborn Distribution Plot](Assets/DHistPlot.png)
 
 #### Identifying Key Features for Diagnosis:
 * Determining which features are most relevant and influential in diagnosing conditions or predicting outcomes is key to improve model performance and interpretability.
@@ -187,6 +188,7 @@ Overall, the distribution and variability of features explain a comprehensive an
 ![Seaborn Distribution Plot](Assets/DHeatmap.png)
 
 #### Key takeaways from the correlation matrix that help with the diagnosis.
+
 The colour intensity indicates the strength  and direction of the correlations between pairs of variables.
 
 ##### Notable Positive Correlations
