@@ -101,7 +101,9 @@ However, this is a publicly available dummy data source used only to express lea
  - Also, verify the data has been read correctly and that each column is of the expected type.
  - No data cleaning such as formatting data types is not necessary by observing the data types.
 
-* ‘Describe’ function within the pandas' data frame “Displays the Descriptive Summary Statistics of the data when invoked” (Venkataramanan, 2021). np.transpose() function, imported from the NumPy library, is used to transpose the rows and columns of a matrix. incorporating with the output of df.describe() function, swaps the rows and columns, effectively rotating the descriptive statistics DataFrame.
+* ‘Describe’ function within the pandas' data frame “Displays the Descriptive Summary Statistics of the data when invoked” (Venkataramanan, 2021).
+* np.transpose() function, imported from the NumPy library, is used to transpose the rows and columns of a matrix. incorporating with the output of df.describe() function, swaps the rows and columns, effectively rotating the descriptive statistics DataFrame.
+* These summary statistics help us to evaluate any outliers that may exist within the data.
 
 ![Data_Describe](Assets/DDescribe.png)
   
