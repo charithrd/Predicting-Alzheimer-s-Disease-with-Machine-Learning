@@ -48,7 +48,7 @@ Prediction power and model accuracy are the key measures in choosing an algorith
 ## Chapter 3 Data Source and ELT Flow
 
 ### ELT Diagram
-![ETL](Assets/etl_diagram.png)
+![ETL](Assets/ELT.png)
 
 Above Extract, Load and Transformation (ELT) diagram outlines the data flow from the source to the final analytical and model-building phase. Below are the various stages involved. 
 
