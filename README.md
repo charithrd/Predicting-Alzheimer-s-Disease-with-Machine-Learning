@@ -60,6 +60,8 @@ The Alzheimer's Disease Dataset (Kharoua, 2024) is sourced from the Kaggle platf
 
 ![Libraries](Assets/PyLibraries.png)
 
+The CSV data is subsequently imported into a Jupyter Notebook using a pandas DataFrame for further analysis and evaluation.
+
 ![CSV_Data](Assets/CSV_Loading.png)
 
 #### Transformation:
