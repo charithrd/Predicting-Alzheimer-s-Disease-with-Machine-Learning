@@ -25,6 +25,7 @@ The project aims to enhance the early identification of individuals at risk for 
 ## Chapter 1 Executive Summary
 This project represents a significant step towards leveraging machine learning for proactive healthcare. 
 This project has used the Random Forest Classifier to predict the likelihood of an individual developing Alzheimer's Disease in the future. Alzheimer's Disease is a progressive neurological disorder that impacts memory, thinking, and behaviour, and early prediction is crucial for intervention and management strategies. 
+
 The model accuracy score is 91%, indicating that 91% of the total instances are correctly classified.
 
 For future iterations aim to apply k-fold cross-validation and Grid Search techniques avoiding overfitting issues. Advanced ensemble boosting methods can also be combined with Random Forest to create a more robust model.
@@ -49,31 +50,26 @@ Prediction power and model accuracy are the key measures in choosing an algorith
 ### ELT Diagram
 ![ETL](Assets/etl_diagram.png)
 
-Above figure outlines the data flow from the source to the final analytical phase. Below are the various stages involved.
+Above Extract, Load and Transformation (ELT) diagram outlines the data flow from the source to the final analytical and model-building phase. Below are the various stages involved. 
 
- - Extraction: The data source is the Kaggle platform, downloaded in CSV format and saved on a local drive.
+#### Extraction:
 
-    •	Path to Dataset: https://www.kaggle.com/datasets/rabieelkharoua/alzheimers-disease-dataset
+The Alzheimer's Disease Dataset (Kharoua, 2024) is sourced from the Kaggle platform, downloaded in CSV file format and saved on a local drive.
 
-    •	DOI (Digital Object Identifier) Citation: Rabie El Kharoua. (2024). 🧠 Alzheimer's Disease Dataset 🧠 [Data set]. Kaggle. https://doi.org/10.34740/KAGGLE/DSV/8668279
+#### Load:
 
- - Load: The CSV data is then loaded into a Jupyter Notebook using a pandas data frame for further analysis and evaluation.
+![Libraries](Assets/Libraries.png)
 
- - Transformation: This is where the data analysis and modelling are carried out, including data quality checks, Exploratory Data Analysis (EDA) and Model building and evaluation.
+![CSV_Data](Assets/CSV_Loading.png)
+
+#### Transformation:
+
+This is where the data analysis, transformation and modelling are carried out, including data quality checks, Exploratory Data Analysis (EDA), data drop, model building and evaluation.
 
 
 ## Chapter 4 Data Analysis
 
-### 4.1 Importing required Python Libraries
-![Libraries](Assets/Libraries.png)
-
-### 4.2 Loading CSV Data
-![CSV_Data](Assets/CSV_Loading.png)
-
-* Used the pandas library to read a CSV (Comma-Separated Values) file and load its contents into a DataFrame defined as 'df'.
-
-
-### 4.3 Understanding the Data
+### 4.1 Understanding the Data
 
 * shape - structure of data (rows, columns)
 * head - reading the data (first 25 rows)
