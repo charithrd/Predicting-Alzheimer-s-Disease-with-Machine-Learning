@@ -87,6 +87,7 @@ This is where the data analysis, transformation and modelling are carried out, i
 * The head() function is also from the pandas library is used to display the first 15 rows of a DataFrame, allowing us to evaluate if the right data type is available for analysis.
 ![Data_Head](Assets/Data_Head.png)
 
+#### Privacy Considerations:
 
 This dataset contains personally identifiable information (PII). Complying with Art. 7 of the GDPR “the controller shall be able to demonstrate that the data subject has consented to processing of his or her personal data” (Intersoft Consulting, 2016).
 
