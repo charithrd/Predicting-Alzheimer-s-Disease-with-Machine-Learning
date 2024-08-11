@@ -93,9 +93,13 @@ This dataset contains personally identifiable information (PII). Complying with 
 
 However, this is a publicly available dummy data source used only to express learning outcomes. Hence data privacy conformity is not within the scope.
 
+* Using the df.dtypes attribute returns a Series with the data type of each column in the DataFrame.
 
-* Using the df.dtypes attribute returns a Series with the data type of each column in the DataFrame. This helps to understand correct type of data is stored in each column, which is crucial for data analysis and preprocessing tasks.
 ![Data_Types](Assets/DTypes.png)
+
+ - This helps in identifying potential issues such as mixed data types in a single column, which is crucial for data analysis and preprocessing tasks.
+ - Also, verify the data has been read correctly and that each column is of the expected type.
+ - No data cleaning such as formatting data types is not necessary by observing the data types.
 
 * ‘Describe’ function within the pandas' data frame “Displays the Descriptive Summary Statistics of the data when invoked” (Venkataramanan, 2021). np.transpose() function, imported from the NumPy library, is used to transpose the rows and columns of a matrix. incorporating with the output of df.describe() function, swaps the rows and columns, effectively rotating the descriptive statistics DataFrame.
 
