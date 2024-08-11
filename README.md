@@ -58,7 +58,7 @@ The Alzheimer's Disease Dataset (Kharoua, 2024) is sourced from the Kaggle platf
 
 #### Load:
 
-![Libraries](Assets/Libraries.png)
+![Libraries](Assets/PyLibraries.png)
 
 ![CSV_Data](Assets/CSV_Loading.png)
 
