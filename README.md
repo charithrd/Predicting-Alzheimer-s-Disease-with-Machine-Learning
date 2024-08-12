@@ -98,6 +98,9 @@ We have applied below exploratory steps to gain an understanding of the data's s
 #### Head - Previewing the Data
 
 * The head() function is also from the pandas library is used to display the first 15 rows of a DataFrame, allowing us to evaluate if the right data type is available for analysis.
+  
+* Also, help us to spot if there are any glaring issues, such as missing headers or unexpected values.
+
 ![Data_Head](Assets/Data_Head.png)
 
 ##### Privacy Considerations:
