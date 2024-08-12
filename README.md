@@ -77,6 +77,10 @@ This is where the data analysis, transformation and modelling are carried out, i
 
 ### 4.1 Understanding the Data
 
+Before diving into data analysis or model building, it’s essential to understand our dataset. 
+
+We have applied below exploratory steps to gain an understanding of the data's structure, the types of variables, and any issues that might need to be addressed
+
 * shape - structure of data (rows, columns)
 * head - reading the data (first 25 rows)
 * dtypes - data type of each column
@@ -84,18 +88,25 @@ This is where the data analysis, transformation and modelling are carried out, i
 * isnull - checking for null values (completeness data dimension)
 
 =========================================================================================
+
+#### Shape of Data
+
 * The attribute shape from the pandas library is used to get the dimensions (number of rows and columns) of the DataFrame. The data set contains 35 columns and 2,149 rows.
 
 ![Data_Structure](Assets/Structure.png)
 
+#### Head - Previewing the Data
+
 * The head() function is also from the pandas library is used to display the first 15 rows of a DataFrame, allowing us to evaluate if the right data type is available for analysis.
 ![Data_Head](Assets/Data_Head.png)
 
-#### Privacy Considerations:
+##### Privacy Considerations:
 
 This dataset contains personally identifiable information (PII). Complying with Art. 7 of the GDPR “the controller shall be able to demonstrate that the data subject has consented to processing of his or her personal data” (Intersoft Consulting, 2016).
 
 However, this is a publicly available dummy data source used only to express learning outcomes. Hence data privacy conformity is not within the scope.
+
+#### Checking Data Types of Each Column
 
 * Using the df.dtypes attribute returns a Series with the data type of each column in the DataFrame.
 
@@ -104,6 +115,8 @@ However, this is a publicly available dummy data source used only to express lea
  - This helps in identifying potential issues such as mixed data types in a single column, which is crucial for data analysis and preprocessing tasks.
  - Also, verify the data has been read correctly and that each column is of the expected type.
  - No data cleaning such as formatting data types is not necessary by observing the data types.
+
+#### Key Statistics of Each Column
 
 * ‘Describe’ function within the pandas' data frame “Displays the Descriptive Summary Statistics of the data when invoked” (Venkataramanan, 2021).
 * np.transpose() function, imported from the NumPy library, is used to transpose the rows and columns of a matrix. incorporating with the output of df.describe() function, swaps the rows and columns, effectively rotating the descriptive statistics DataFrame.
@@ -131,6 +144,8 @@ However, this is a publicly available dummy data source used only to express lea
 * Average blood pressure and cholesterol levels are within typical ranges but show substantial variation.
 
 These statistical summaries provide insights into the dataset's composition, outliers and variability, helpful for further analysis or modeling.
+
+#### Checking for Null Values (Completeness Data Dimension)
 
 * We have applied the isnull () function verifying the ‘Completeness’ data quality dimension, as “missing data will have an impact on its use and affect the reliability of insights” (GOV.UK, 2021).
 
