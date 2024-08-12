@@ -155,26 +155,31 @@ These statistical summaries provide insights into the dataset's composition, out
 ![Data_Describe](Assets/NullValues.png)
 
 
-### 4.4 Exploratory Data Analysis
+### 4.2 Exploratory Data Analysis
 
 The next stage of this analysis is to delve into comprehensive data patterns and relationships associated with the data.
 
 Mendlem, S. (2023) claims that “Exploratory Data Analysis (EDA) serves as the compass that guides data scientists through the intricate terrain of datasets”. 
 
-### Key Steps:
+=========================================================================================
 
-#### Check for Duplicates:
+#### Check for Duplicates
+
 * Identify and remove any duplicate entries in the dataset to ensure data quality and accuracy.
 
 ![Data_Duplicated](Assets/DDuplicated.png)
 
-#### Data Drop (Irrelevant Columns):
+#### Data Drop (Irrelevant Columns)
+
 * We have used a subsetted data frame to drop non-essential columns and assign them to a new data frame. This provides code clarity for future maintenance and streamline the dataset to focus on relevant features.
 
 ![Data_Drop](Assets/DDrop.png)
 
-#### Quick EDA with Sweetviz:
-* Emerging open-source EDA libraries like ‘Sweetviz’ allow us to gain quick insights about data with minimal code. This will add "the edge to efficiency of your industrial ML and data analytics projects” (Vyshnya 2020). In contrast, when analyzing large datasets “readability and interpretation of the association graph becomes difficult” (Lekhwar 2020).
+#### Quick EDA with Sweetviz
+
+* Emerging open-source EDA libraries like ‘Sweetviz’ allow us to gain quick insights about data with minimal code. This will add "the edge to efficiency of your industrial ML and data analytics projects” (Vyshnya 2020).
+  
+* In contrast, when analyzing large datasets “readability and interpretation of the association graph becomes difficult” (Lekhwar 2020).
 
 ![Sweetviz](Assets/Sweetviz.png)
 
@@ -186,7 +191,8 @@ Mendlem, S. (2023) claims that “Exploratory Data Analysis (EDA) serves as the 
 
 ![Sweetviz Results](Assets/SweetvizOut2.png)
 
-#### Plot the Distribution of Numerical Features:
+
+#### Plot the Distribution of Numerical Features
 
 * Below code configures the plot style with Seaborn library, creates histograms for all columns in the DataFrame (df) with specified aesthetics, adjusts the layout to prevent overlap, and finally displays the plot.
 
@@ -194,7 +200,7 @@ Mendlem, S. (2023) claims that “Exploratory Data Analysis (EDA) serves as the 
 
 ![Seaborn Distribution Plot](Assets/DHistPlot.png)
 
-#### The insights derived from the histograms provide the following key statistics on the distribution.
+##### The insights derived from the histograms provide the following key statistics on the distribution.
 
 •	Functional Assessment Score – range of scores indicates the variability among individuals. This allows the machine-learning model to learn the traces between different levels of functional deficiencies. 
 
@@ -206,7 +212,8 @@ Overall, the distribution and variability of features explain a comprehensive an
 
 
 
-#### Identifying Key Features for Diagnosis:
+#### Identifying Key Features for Diagnosis
+
 * Determining which features are most relevant and influential in diagnosing conditions or predicting outcomes is key to improve model performance and interpretability.
 * Hence we have applied a heatmap of the correlation matrix of the dataFrame using the Seaborn and Matplotlib libraries.
 
@@ -214,7 +221,7 @@ Overall, the distribution and variability of features explain a comprehensive an
 
 ![Seaborn Distribution Plot](Assets/DHeatmap.png)
 
-#### Key takeaways from the correlation matrix that help with the diagnosis.
+##### Key takeaways from the correlation matrix that help with the diagnosis.
 
 The colour intensity indicates the strength  and direction of the correlations between pairs of variables.
 
@@ -243,7 +250,8 @@ against risk of the disease.
 
 Many cells with very light shades or almost white represents weak or no correlation.
 
-#### Univariate Analysis:
+#### Univariate Analysis
+
 * Performing a detailed analysis of individual variables allow us to understand its distribution, central tendency, variability, and potential impact on the target variable.
 
 * Frequency of age distribution is illustrated using seaborn barplot.
@@ -266,9 +274,10 @@ Many cells with very light shades or almost white represents weak or no correlat
   
 * Following these steps sets the grounds in understanding the dataset thoroughly before moving on to more complex analyses or model building.
 
-### 4.5 Binary Classification Methods
+### 4.3 Binary Classification Methods
 
 #### Features and Target Split
+
 We are defining model features and target variable with below step. In summary, we are seperating the original dataset (df) into two parts.
  * features - all the columns except the 'Diagnosis' column.
  * target - contains only the values from the 'Diagnosis' column.
@@ -276,6 +285,7 @@ We are defining model features and target variable with below step. In summary, 
 ![Model Features](Assets/ModelFeatures.png)
 
 #### Standardizing features
+
 Scaling features to have a mean of 0 and a standard deviation of 1.
 Ensure that each feature contributes equally to a algorythm and improves the convergence speed and accuracy of the model.
 
