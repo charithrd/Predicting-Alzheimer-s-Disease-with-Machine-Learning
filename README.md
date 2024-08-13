@@ -280,7 +280,14 @@ Many cells with very light shades or almost white represents weak or no correlat
   
 * Following these steps sets the grounds in understanding the dataset thoroughly before moving on to more complex analyses or model building.
 
-### 4.3 Binary Classification Methods
+
+### 4.3 Concluding Exploratory Data Analysis
+
+* Choosen dataset of this project is fairy small with 2,149 records of individuals and 33 useful features. (Excluding PatientID & DoctorInCharge)
+* Data cleaning was deemed unnecessary as there are no missing values, duplicate records, or formatting errors present.
+* Non-binary features need to be scaled before modeling to ensure they contribute equally to the analysis.
+
+### 4.4 Binary Classification Methods
 
 #### Features and Target Split
 
