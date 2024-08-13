@@ -12,6 +12,8 @@
 
 [Data Analysis](#Chapter-4-Data-Analysis)
 
+[Understanding the Data](#41-Understanding-the-Data)
+
 [Conclusion](#Chapter-5-Conclusion)
 
 [Bibliography](#Bibliography)
