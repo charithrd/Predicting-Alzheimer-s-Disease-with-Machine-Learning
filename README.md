@@ -16,7 +16,9 @@
 
 [4.2 Exploratory Data Analysis](#42-Exploratory-Data-Analysis)
 
-[4.3 Binary Classification Models](#43-Binary-Classification-Methods)
+[4.3 Exploratory Data Analysis Conclusions](#43-Concluding-Exploratory-Data-Analysis)
+
+[4.4 Binary Classification Models](#43-Binary-Classification-Methods)
 
 [5. Conclusion](#Chapter-5-Conclusion)
 
@@ -283,9 +285,19 @@ Many cells with very light shades or almost white represents weak or no correlat
 
 ### 4.3 Concluding Exploratory Data Analysis
 
-* Choosen dataset of this project is fairy small with 2,149 records of individuals and 33 useful features. (Excluding PatientID & DoctorInCharge)
-* Data cleaning was deemed unnecessary as there are no missing values, duplicate records, or formatting errors present.
-* Non-binary features need to be scaled before modeling to ensure they contribute equally to the analysis.
+#### Dataset Characteristics
+
+ - Choosen dataset of this project is fairy small with 2,149 records of individuals and 33 useful features. (Excluding PatientID & DoctorInCharge)
+ - Data cleaning was deemed unnecessary as there are no missing values, duplicate records, or formatting errors present.
+ - Non-binary features need to be scaled before modeling to ensure they contribute equally to the analysis.
+
+#### Health profile observations
+
+ - The patient population is predominantly elderly, with a roughly equal gender distribution
+ - Despite the advanced age of the group, there is a relatively low prevalence of chronic conditions like cardiovascular disease, diabetes, hypertension, and depression.
+ - Blood pressure readings show variability, with some individuals displaying higher readings, but the overall distribution remains within typical ranges.
+
+   
 
 ### 4.4 Binary Classification Methods
 
