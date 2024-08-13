@@ -4,17 +4,21 @@
 
 [Research Topic](#Research-Topic)
 
-[Executive Summary](#Chapter-1-Executive-Summary)
+[1. Executive Summary](#Chapter-1-Executive-Summary)
 
-[Literature Review](#Chapter-2-Literature-Review)
+[2. Literature Review](#Chapter-2-Literature-Review)
 
-[ETL Diagram](#Chapter-3-Data-Source-and-ETL-Flow)
+[3. ETL Diagram](#Chapter-3-Data-Source-and-ETL-Flow)
 
-[Data Analysis](#Chapter-4-Data-Analysis)
+[4. Data Analysis](#Chapter-4-Data-Analysis)
 
-  [Understanding the Data](#41-Understanding-the-Data)
+[4.1 Understanding the Data](#41-Understanding-the-Data)
 
-[Conclusion](#Chapter-5-Conclusion)
+[4.2 Exploratory Data Analysis](#42-Exploratory-Data-Analysis)
+
+[4.3 Binary Classification Models](#43-Binary-Classification-Methods)
+
+[5. Conclusion](#Chapter-5-Conclusion)
 
 [Bibliography](#Bibliography)
 
