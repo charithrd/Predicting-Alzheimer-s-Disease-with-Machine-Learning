@@ -296,6 +296,10 @@ Many cells with very light shades or almost white represents weak or no correlat
  - The patient population is predominantly elderly, with a roughly equal gender distribution
  - Despite the advanced age of the group, there is a relatively low prevalence of chronic conditions like cardiovascular disease, diabetes, hypertension, and depression.
  - Blood pressure readings show variability, with some individuals displaying higher readings, but the overall distribution remains within typical ranges.
+ - Analysing the diagnosed cases by Ethnicity, 61% represents Caucasian Ethnic Group.
+ - This could potentially be subject to the limited dataset. However, require further invesgation.
+ - Also, 40% of the diagnosed population only had High School level education.
+ - It is evident that higher the education level, less likely the risk of disease.
 
    
 
