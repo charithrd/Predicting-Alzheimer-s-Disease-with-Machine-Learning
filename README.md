@@ -24,8 +24,6 @@
 
 [Bibliography](#Bibliography)
 
-<a id="A"></a>
-# <div style="text-align:center; border-radius:15px 50px; padding:15px; color:black; margin:0; font-size:90%; font-family: 'Helvetica', Arial, sans-serif; background: linear-gradient(to right, lightyellow, lightcoral); overflow:hidden"><b> 7. Project Conclusion </b></div>
 
 ## Research Topic
 
