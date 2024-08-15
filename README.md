@@ -305,7 +305,7 @@ Many cells with very light shades or almost white represents weak or no correlat
 
 
 ```
-Diagnosed Cases by Education Level
+**Diagnosed Cases by Education Level**
 ```
 
  - Hereby, we are exploring the effect of individual's education level in relation with diagnosed positive.
