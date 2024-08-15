@@ -30,7 +30,7 @@
 
 [Bibliography](#Bibliography)
 
-
+<b>Diagnosed Cases by Education Level</b>
 
 > ## Research Topic
 
