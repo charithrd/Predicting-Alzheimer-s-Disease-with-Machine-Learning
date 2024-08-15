@@ -282,6 +282,19 @@ Many cells with very light shades or almost white represents weak or no correlat
   
 * Following these steps sets the grounds in understanding the dataset thoroughly before moving on to more complex analyses or model building.
 
+*Diagnosed Cases by Ethnicity Groups
+
+ - This step help us to evaluate whether a certain ethnic group is prone to Alzheimer's
+
+![Diagnosis by Ethnicity Groups](Assets/EthnicityMapping.png)
+
+![Diagnosed % per Ethnicity Group](Assets/EthnicityPie.png)
+
+ - As per the illustration 61% of the diagnosed cases reported within Caucasian Ethnic Group.
+ - Second largest ethnic group represented by African Americans, which is 19%
+ - Overall, The data indicates a significant disparity in diagnosis rates across different ethnic groups.
+ - This disparity may be due to various factors, including differences in access to healthcare, socioeconomic status and genetics.
+ - Further investigation would be necessary to fully understand the reasons behind these differences.
 
 ### 4.3 Concluding Exploratory Data Analysis
 
