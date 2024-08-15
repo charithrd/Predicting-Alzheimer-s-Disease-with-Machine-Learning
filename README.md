@@ -296,6 +296,20 @@ Many cells with very light shades or almost white represents weak or no correlat
  - This disparity may be due to various factors, including differences in access to healthcare, socioeconomic status and genetics.
  - Further investigation would be necessary to fully understand the reasons behind these differences.
 
+
+*Diagnosed Cases by Education Level
+
+ - Hereby, we are exploring the effect of individual's education level in relation with diagnosed positive.
+
+![Diagnosis by Education Level](Assets/EducationMapping.png)
+
+![Diagnosed % per Education Level](Assets/EducationPie.png)
+
+  - Nearly 40% of the diagnosed population is corresponding to High School level education.
+  - Next biggest portion is Bachelor's level education equating to 29%.
+  - It is observed that with the higher education level, less likely for risk of Alzheimers.
+
+
 ### 4.3 Concluding Exploratory Data Analysis
 
 #### Dataset Characteristics
@@ -310,7 +324,7 @@ Many cells with very light shades or almost white represents weak or no correlat
  - Despite the advanced age of the group, there is a relatively low prevalence of chronic conditions like cardiovascular disease, diabetes, hypertension, and depression.
  - Blood pressure readings show variability, with some individuals displaying higher readings, but the overall distribution remains within typical ranges.
  - Analysing the diagnosed cases by Ethnicity, 61% represents Caucasian Ethnic Group.
- - This could potentially be subject to the limited dataset. However, require further invesgation.
+ - This could potentially be subject to various factors, including differences in access to healthcare, socioeconomic status, etc. However, require further invesgation.
  - Also, 40% of the diagnosed population only had High School level education.
  - It is evident that higher the education level, less likely the risk of disease.
 
