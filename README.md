@@ -26,7 +26,7 @@
 
 > [!IMPORTANT]  
 
-## Research Topic
+> ## Research Topic
 
 The project aims to enhance the early identification of individuals at risk for Alzheimer's Disease by developing a machine-learning model created using the random forest classifier, with a diagnosis prediction accuracy score of 91%. Through exploratory data analysis (EDA) conducted on a public dataset from the Kaggle platform, we have identified the key features of early prediction of Alzheimer's Disease such as functional assessment score, mini-mental state examination score (MMSE), memory complaints, behavioural problems and activities of daily living score (ADL). The insights derived from the model potentially can support organizations such as Alzheimer Research UK in proactively identifying at-risk individuals and facilitating appropriate interventions.
 
