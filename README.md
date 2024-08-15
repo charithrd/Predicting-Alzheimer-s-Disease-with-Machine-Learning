@@ -31,7 +31,7 @@
 [Bibliography](#Bibliography)
 
 ```
-## Research Topic
+- Research Topic
 ```
 
 > ## Research Topic
