@@ -289,7 +289,7 @@ Many cells with very light shades or almost white represents weak or no correlat
   
 * Following these steps sets the grounds in understanding the dataset thoroughly before moving on to more complex analyses or model building.
 
-*Diagnosed Cases by Ethnicity Groups
+_Diagnosed Cases by Ethnicity Groups_
 
  - This step help us to evaluate whether a certain ethnic group is prone to Alzheimer's
 
@@ -304,9 +304,8 @@ Many cells with very light shades or almost white represents weak or no correlat
  - Further investigation would be necessary to fully understand the reasons behind these differences.
 
 
-```
-**Diagnosed Cases by Education Level**
-```
+
+_Diagnosed Cases by Education Level_
 
  - Hereby, we are exploring the effect of individual's education level in relation with diagnosed positive.
 
