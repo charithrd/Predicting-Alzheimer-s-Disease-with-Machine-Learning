@@ -30,7 +30,6 @@
 
 [Bibliography](#Bibliography)
 
-<b>Diagnosed Cases by Education Level</b>
 
 > ## Research Topic
 
@@ -269,7 +268,9 @@ Many cells with very light shades or almost white represents weak or no correlat
 
 * Performing a detailed analysis of individual variables allow us to understand its distribution, central tendency, variability, and potential impact on the target variable.
 
-* Frequency of age distribution is illustrated using seaborn barplot.
+<b>Age Distribution</b>
+
+ - Frequency of age distribution is illustrated using seaborn barplot.
 
 ![Seaborn Distribution Plot](Assets/DAge.png)
 
@@ -279,17 +280,19 @@ Many cells with very light shades or almost white represents weak or no correlat
  - The distribution shows a fairly uniform spread across the age range, with slight peaks at ages 74-76 and 89-90.
  - This suggests that the dataset has a consistent representation of individuals in this age group, with few significant outliers.
 
-* Gender Distribution is also represented using seaborn barplot.
+<b>Gender Distribution</b>
+
+ - Exploring distribution of gender within the dataset using a barplot.
 
 ![Seaborn Distribution Plot](Assets/DGender.png)
 
 ![Seaborn Distribution Plot](Assets/DGenderDist.png)
 
  - Both genders are equally distributed.
-  
-* Following these steps sets the grounds in understanding the dataset thoroughly before moving on to more complex analyses or model building.
+ - The small difference (2%) between the two groups indicates that the dataset does not have a significant gender imbalance.
+   
 
-_Diagnosed Cases by Ethnicity Groups_
+<b>Diagnosed Cases by Ethnicity Groups</b>
 
  - This step help us to evaluate whether a certain ethnic group is prone to Alzheimer's
 
@@ -304,8 +307,7 @@ _Diagnosed Cases by Ethnicity Groups_
  - Further investigation would be necessary to fully understand the reasons behind these differences.
 
 
-
-_Diagnosed Cases by Education Level_
+<b>Diagnosed Cases by Education Level</b>
 
  - Hereby, we are exploring the effect of individual's education level in relation with diagnosed positive.
 
@@ -336,7 +338,8 @@ _Diagnosed Cases by Education Level_
  - Also, 40% of the diagnosed population only had High School level education.
  - It is evident that higher the education level, less likely the risk of disease.
 
-   
+* Following these EDA steps sets the grounds in understanding the dataset thoroughly before moving on to more complex analyses or model building.
+ 
 
 ### 4.4 Binary Classification Methods
 
