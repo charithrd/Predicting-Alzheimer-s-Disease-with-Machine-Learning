@@ -30,9 +30,7 @@
 
 [Bibliography](#Bibliography)
 
-```
-- Research Topic
-```
+
 
 > ## Research Topic
 
@@ -306,7 +304,9 @@ Many cells with very light shades or almost white represents weak or no correlat
  - Further investigation would be necessary to fully understand the reasons behind these differences.
 
 
-*Diagnosed Cases by Education Level
+```
+Diagnosed Cases by Education Level
+```
 
  - Hereby, we are exploring the effect of individual's education level in relation with diagnosed positive.
 
