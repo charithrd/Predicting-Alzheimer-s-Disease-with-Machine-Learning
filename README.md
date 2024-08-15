@@ -1,9 +1,10 @@
-![Header Imagery](Assets/Alzheimers.jfif)
-
 <p align="left">
     <a href="https://github.com/charithrd/Predicting-Alzheimer-s-Disease-with-Machine-Learning/commits/master">
     <img src="https://img.shields.io/github/last-commit/charithrd/Predicting-Alzheimer-s-Disease-with-Machine-Learning.svg?style=flat-square&logo=github&logoColor=white"
          alt="GitHub last commit">
+
+![Header Imagery](Assets/Alzheimers.jfif)
+
 
 ## Table of Contents
 
@@ -36,7 +37,7 @@
 The project aims to enhance the early identification of individuals at risk for Alzheimer's Disease by developing a machine-learning model created using the random forest classifier, with a diagnosis prediction accuracy score of 91%. Through exploratory data analysis (EDA) conducted on a public dataset from the Kaggle platform, we have identified the key features of early prediction of Alzheimer's Disease such as functional assessment score, mini-mental state examination score (MMSE), memory complaints, behavioural problems and activities of daily living score (ADL). The insights derived from the model potentially can support organizations such as Alzheimer Research UK in proactively identifying at-risk individuals and facilitating appropriate interventions.
 
 
-## Chapter 1 Executive Summary
+> ## Chapter 1 Executive Summary
 This project represents a significant step towards leveraging machine learning for proactive healthcare. 
 This project has used the Random Forest Classifier to predict the likelihood of an individual developing Alzheimer's Disease in the future. Alzheimer's Disease is a progressive neurological disorder that impacts memory, thinking, and behaviour, and early prediction is crucial for intervention and management strategies. 
 
@@ -45,16 +46,16 @@ The model accuracy score is 91%, indicating that 91% of the total instances are 
 For future iterations aim to apply k-fold cross-validation and Grid Search techniques avoiding overfitting issues. Advanced ensemble boosting methods can also be combined with Random Forest to create a more robust model.
 
 
-## Chapter 2 Literature Review
+> ## Chapter 2 Literature Review
 
-### 2.1 Machine Learning Algorithms
+> ### 2.1 Machine Learning Algorithms
 Machine learning (ML) algorithms are computational methods that enable machines to learn from data and make decisions or predictions based on that data. “A system that is in a changing environment should have the ability to learn” (Alpaydin, 2021). 
 
 Hence machine learning is a form of artificial intelligence that evolves with learning outcomes.
 
 Ensemble learning is one of the key supervised machine learning categories and “is primarily used to improve the performance of a model” (Mahesh, 2020). Within Ensembles gradient-boosting and random forest classification are two famous methods.
 
-### 2.2 Why Random Forest Classifier
+> ### 2.2 Why Random Forest Classifier
 “Prediction in health sector requires greater degree of precision for improved diagnosis and treatment” (Singh et al., 2017)
 Azar et al. 2014 claim that “random forest models provided greater predictive accuracy than single-tree models” and are specifically effective in healthcare.
 Jackins et al. (2021) discuss that “Bayesian network classifier and random forest classifier are used to diagnose the risk for diabetes.. the outcome shows that Random Forest was performed well in both accuracy and ROC curve”.
@@ -63,7 +64,7 @@ Furthermore, “Standard decision tree classifiers have the disadvantage that th
 Prediction power and model accuracy are the key measures in choosing an algorithm for the selected data set. Hence the random forest (RF) method has been identified as the optimal approach to predicting the machine learning outcome for Alzheimer's Disease.
 
 
-## Chapter 3 Data Source and ELT Flow
+> ## Chapter 3 Data Source and ELT Flow
 
 ### ELT Diagram
 ![ETL](Assets/ELT.png)
