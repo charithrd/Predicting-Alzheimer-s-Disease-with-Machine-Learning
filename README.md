@@ -31,6 +31,7 @@
 [Bibliography](#Bibliography)
 
 
+
 > ## Research Topic
 
 The project aims to enhance the early identification of individuals at risk for Alzheimer's Disease by developing a machine-learning model created using the random forest classifier, with a diagnosis prediction accuracy score of 91%. Through exploratory data analysis (EDA) conducted on a public dataset from the Kaggle platform, we have identified the key features of early prediction of Alzheimer's Disease such as functional assessment score, mini-mental state examination score (MMSE), memory complaints, behavioural problems and activities of daily living score (ADL). The insights derived from the model potentially can support organizations such as Alzheimer Research UK in proactively identifying at-risk individuals and facilitating appropriate interventions.
@@ -189,6 +190,7 @@ Mendlem, S. (2023) claims that “Exploratory Data Analysis (EDA) serves as the 
 
 ![Data_Drop](Assets/DDrop.png)
 
+
 #### Quick EDA with Sweetviz
 
 * Emerging open-source EDA libraries like ‘Sweetviz’ allow us to gain quick insights about data with minimal code. This will add "the edge to efficiency of your industrial ML and data analytics projects” (Vyshnya 2020).
@@ -264,9 +266,11 @@ against risk of the disease.
 
 Many cells with very light shades or almost white represents weak or no correlation.
 
-#### Univariate Analysis
+
+### Univariate Analysis
 
 * Performing a detailed analysis of individual variables allow us to understand its distribution, central tendency, variability, and potential impact on the target variable.
+  
 
 <b>Age Distribution</b>
 
@@ -279,6 +283,7 @@ Many cells with very light shades or almost white represents weak or no correlat
  - Age distribution range from 60 to 90 years.
  - The distribution shows a fairly uniform spread across the age range, with slight peaks at ages 74-76 and 89-90.
  - This suggests that the dataset has a consistent representation of individuals in this age group, with few significant outliers.
+
 
 <b>Gender Distribution</b>
 
