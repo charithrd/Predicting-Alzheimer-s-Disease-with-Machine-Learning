@@ -48,14 +48,14 @@ For future iterations aim to apply k-fold cross-validation and Grid Search techn
 
 > ## Chapter 2 Literature Review
 
-> ### 2.1 Machine Learning Algorithms
+### 2.1 Machine Learning Algorithms
 Machine learning (ML) algorithms are computational methods that enable machines to learn from data and make decisions or predictions based on that data. “A system that is in a changing environment should have the ability to learn” (Alpaydin, 2021). 
 
 Hence machine learning is a form of artificial intelligence that evolves with learning outcomes.
 
 Ensemble learning is one of the key supervised machine learning categories and “is primarily used to improve the performance of a model” (Mahesh, 2020). Within Ensembles gradient-boosting and random forest classification are two famous methods.
 
-> ### 2.2 Why Random Forest Classifier
+### 2.2 Why Random Forest Classifier
 “Prediction in health sector requires greater degree of precision for improved diagnosis and treatment” (Singh et al., 2017)
 Azar et al. 2014 claim that “random forest models provided greater predictive accuracy than single-tree models” and are specifically effective in healthcare.
 Jackins et al. (2021) discuss that “Bayesian network classifier and random forest classifier are used to diagnose the risk for diabetes.. the outcome shows that Random Forest was performed well in both accuracy and ROC curve”.
@@ -88,7 +88,7 @@ The CSV data is subsequently imported into a Jupyter Notebook using a pandas Dat
 This is where the data analysis, transformation and modelling are carried out, including data quality checks, Exploratory Data Analysis (EDA), data drop, model building and evaluation.
 
 
-## Chapter 4 Data Analysis
+> ## Chapter 4 Data Analysis
 
 ### 4.1 Understanding the Data
 
@@ -390,7 +390,7 @@ By setting the 'random state' we can ensure that the same results are achieved a
   - Overall, the Random Forest classifier shows strong performance, particularly in terms of accuracy and precision.
 
 
-## Chapter 5: Conclusion
+> ## Chapter 5: Conclusion
 
 Even though model accuracy is 91%, I have identified below techniques that could further improve model performance.
 
@@ -399,7 +399,7 @@ Advanced ensemble methods such as Gradient Boosting and XGBoost could be combine
 “A model that would just repeat the labels of the samples that it has just seen would have a perfect score but would fail to predict anything useful on yet-unseen data.” (scikit-learn.org, n.d.). Hence with upskilling my Python skills, I aim to adopt k-fold cross-validation to ensure the model's performance is consistent across different data subsets and Grid Search to find the optimal parameters.
 
 
-## Bibliography
+> ## Bibliography
 
 Alpaydin, E., 2021. Machine learning. MIT press.
 
