@@ -24,7 +24,11 @@
 
 [Bibliography](#Bibliography)
 
-> [!IMPORTANT]  
+
+<p align="center">
+    <a href="https://github.com/charithrd/Predicting-Alzheimer-s-Disease-with-Machine-Learning/commits/master">
+    <img src="https://img.shields.io/github/last-commit/ArmynC/ArminC-AutoExec.svg?style=flat-square&logo=github&logoColor=white"
+         alt="GitHub last commit">
 
 > ## Research Topic
 
