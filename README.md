@@ -404,7 +404,7 @@ By setting the 'random state' we can ensure that the same results are achieved a
 
 > ## Chapter 5: Conclusion
 
-Upon comprehensive literature review on predictive modelling in healthcare, our research has attested that the model made up of multiple decision trees has greater predictive accuracy than single tree models. This warrants a robust and novel approach in early identification of individuals at risk for Alzheimer's Disease.
+Upon comprehensive literature review on predictive modelling in healthcare, our research has attested that the model made up of multiple decision trees has greater predictive accuracy than single tree models. This warrants a robust and novel approach in the early identification of individuals at risk for Alzheimer's Disease.
 
 Even though model accuracy is 91%, I have identified below techniques that could further improve model performance.
 
