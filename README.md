@@ -32,6 +32,8 @@
 The project aims to enhance the early identification of individuals at risk for Alzheimer's Disease by developing a machine-learning model created using the random forest classifier, with a diagnosis prediction accuracy score of 91%. Through exploratory data analysis (EDA) conducted on a public dataset from the Kaggle platform, we have identified the key features of early prediction of Alzheimer's Disease such as functional assessment score, mini-mental state examination score (MMSE), memory complaints, behavioural problems and activities of daily living score (ADL). The insights derived from the model potentially can support organizations such as Alzheimer Research UK in proactively identifying at-risk individuals and facilitating appropriate interventions.
 
 
+
+
 > ## Chapter 1 Executive Summary
 
 This project has leveraged machine learning (ML) with Python programming to predict individuals at risk for Alzheimer’s using health profile observations and medical assessment scores. 
@@ -41,6 +43,7 @@ Applying the EDA learnings we’ve used Scikit-learn to model the ML algorithms.
 
 This model and analysis can form part of predicting the likelihood of an individual developing Alzheimer's Disease in the future and early prediction is crucial for intervention and management strategies. 
 We aim to apply k-fold cross-validation and Grid Search techniques for future iterations, avoiding overfitting issues. Advanced ensemble boosting methods can also be combined with Random Forest to create a more robust model.
+
 
 
 
