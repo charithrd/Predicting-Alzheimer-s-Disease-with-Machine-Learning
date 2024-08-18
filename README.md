@@ -38,12 +38,15 @@ The project aims to enhance the early identification of individuals at risk for 
 
 
 > ## Chapter 1 Executive Summary
-This project represents a significant step towards leveraging machine learning for proactive healthcare. 
-This project has used the Random Forest Classifier to predict the likelihood of an individual developing Alzheimer's Disease in the future. Alzheimer's Disease is a progressive neurological disorder that impacts memory, thinking, and behaviour, and early prediction is crucial for intervention and management strategies. 
 
-The model accuracy score is 91%, indicating that 91% of the total instances are correctly classified.
+This project has leveraged machine learning (ML) with Python programming to predict individuals at risk for Alzheimer’s using health profile observations and medical assessment scores. 
 
-For future iterations aim to apply k-fold cross-validation and Grid Search techniques avoiding overfitting issues. Advanced ensemble boosting methods can also be combined with Random Forest to create a more robust model.
+By thorough data interrogation and manipulation using Pandas and exploratory data analysis (EDA) using Seaborn and Sweetviz, we have gained an understanding of the dataset. 
+Applying the EDA learnings we’ve used Scikit-learn to model the ML algorithms. The Random Forest Classifier model has a high prediction accuracy score (R²=0.91). Furthermore, EDA steps conclude the key features influencing the diagnosis predictions.
+
+This model and analysis can form part of predicting the likelihood of an individual developing Alzheimer's Disease in the future and early prediction is crucial for intervention and management strategies. 
+We aim to apply k-fold cross-validation and Grid Search techniques for future iterations, avoiding overfitting issues. Advanced ensemble boosting methods can also be combined with Random Forest to create a more robust model.
+
 
 
 > ## Chapter 2 Literature Review
