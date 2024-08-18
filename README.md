@@ -1,7 +1,7 @@
 ![Header Imagery](Assets/Alzheimers.jfif)
 
 
-## Table of Contents
+> ## Table of Contents
 
 [Research Topic](#Research-Topic)
 
