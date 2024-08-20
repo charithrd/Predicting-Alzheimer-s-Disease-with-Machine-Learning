@@ -29,7 +29,7 @@
 
 > ## Research Topic
 
-We aim to determine the influential features of Alzheimer's Disease prediction and assess how machine learning algorithms utilising these features can improve early diagnosis with high accuracy and enhance preventive strategies.
+We aim to determine the influential features of Alzheimer's Disease prediction and assess how machine learning algorithms utilising these features can improve early diagnosis of Alzheimer’s Disease with a high accuracy level and aid in applying preventive strategies.
 
 
 
