@@ -29,8 +29,7 @@
 
 > ## Research Topic
 
-The project aims to enhance the early identification of individuals at risk for Alzheimer's Disease by developing a machine-learning model created using the random forest classifier, with a diagnosis prediction accuracy score of 91%. Through exploratory data analysis (EDA) conducted on a public dataset from the Kaggle platform, we have identified the key features of early prediction of Alzheimer's Disease such as functional assessment score, mini-mental state examination score (MMSE), memory complaints, behavioural problems and activities of daily living score (ADL). The insights derived from the model potentially can support organizations such as Alzheimer Research UK in proactively identifying at-risk individuals and facilitating appropriate interventions.
-
+We aim to determine the influential features of Alzheimer's Disease prediction and assess how machine learning algorithms utilising these features can improve early diagnosis with high accuracy and enhance preventive strategies.
 
 
 
@@ -39,11 +38,14 @@ The project aims to enhance the early identification of individuals at risk for 
 This project has leveraged machine learning (ML) with Python programming to predict individuals at risk for Alzheimer’s using health profile observations and medical assessment scores. 
 
 By thorough data interrogation and manipulation using Pandas and exploratory data analysis (EDA) using Seaborn and Sweetviz, we have gained an understanding of the dataset. 
-Applying the EDA learnings we’ve used Scikit-learn to model the ML algorithms. The Random Forest Classifier model has a high prediction accuracy score (R²=0.91). Furthermore, EDA steps conclude the key features influencing the diagnosis predictions.
 
-This model and analysis can form part of predicting the likelihood of an individual developing Alzheimer's Disease in the future and early prediction is crucial for intervention and management strategies. 
+Applying the EDA learnings, we’ve used Scikit-learn to model the ML algorithms. The Random Forest Classifier model has a high prediction accuracy score (R²=0.91).
+
+Furthermore, this analysis concludes the key features of diagnosis predictions such as functional assessment score, mini-mental state examination score (MMSE), memory complaints, behavioural problems and activities of daily living score (ADL).
+
+The insights derived from the model will help organisations such as Alzheimer Research UK proactively identify at-risk individuals for early intervention and management strategies.
+
 We aim to apply k-fold cross-validation and Grid Search techniques for future iterations, avoiding overfitting issues. Advanced ensemble boosting methods can also be combined with Random Forest to create a more robust model.
-
 
 
 
