@@ -21,7 +21,9 @@
 
 [4.4 Binary Classification Models](#43-Binary-Classification-Methods)
 
-[5. Conclusion](#Chapter-5-Conclusion)
+[5. Limitations](#Chapter-5-Limitations)
+
+[6. Conclusion](#Chapter-6-Conclusion)
 
 [Bibliography](#Bibliography)
 
