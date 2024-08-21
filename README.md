@@ -402,15 +402,28 @@ By setting the 'random state' we can ensure that the same results are achieved a
   - Overall, the Random Forest classifier shows strong performance, particularly in terms of accuracy and precision.
 
 
-> ## Chapter 5: Conclusion
+> ## Chapter 5: Limitations
 
-Upon comprehensive literature review on predictive modelling in healthcare, our research has attested that the model made up of multiple decision trees has greater predictive accuracy than single tree models. This warrants a robust and novel approach in the early identification of individuals at risk for Alzheimer's Disease.
+“A model that would just repeat the labels of the samples that it has just seen would have a perfect score but would fail to predict anything useful on yet-unseen data.” (scikit-learn.org, n.d.).
 
-Even though model accuracy is 91%, I have identified below techniques that could further improve model performance.
+Ravanshad (2018) also highlights that “random forests are biased in favor of categorical variables”. With Sweetviz EDA, we have learned our dataset contains 19 categorical columns. 
 
-Advanced ensemble methods such as Gradient Boosting and XGBoost could be combined with Random Forest to create a more robust model. Research by González-Recio et al. (2013) explains Gradient Boosting “showed similar or higher accuracy than other methods, such as Bayes A or Bayesian LASSO”
+Hence, our RF model performance is subject to data bias than Gradient Boosting methods.
 
-“A model that would just repeat the labels of the samples that it has just seen would have a perfect score but would fail to predict anything useful on yet-unseen data.” (scikit-learn.org, n.d.). Hence with upskilling my Python skills, I aim to adopt k-fold cross-validation to ensure the model's performance is consistent across different data subsets and Grid Search to find the optimal parameters.
+
+
+> ## Chapter 6: Conclusion
+
+Our comprehensive literature review on predictive modelling in healthcare along with modelling results has attested that a model made up of multiple decision trees has greater predictive accuracy than single-tree models. 
+
+This warrants a robust and novel approach in the early identification of individuals at risk for Alzheimer's Disease.
+
+Even though random forest model accuracy is 91%, I have identified below techniques that could further improve model performance.
+
+Advanced ensemble methods such as Gradient Boosting and XGBoost could be combined with Random Forest to create a more efficient model. Research by González-Recio et al. (2013) explains Gradient Boosting “showed similar or higher accuracy than other methods, such as Bayes A or Bayesian LASSO”
+
+Further with upskilling my Python skills, I aim to adopt k-fold cross-validation to ensure the model's performance is consistent across different data subsets and Grid Search to find the optimal parameters.
+
 
 
 > ## Bibliography
@@ -434,6 +447,8 @@ Lekhwar, S., 2020. Sweetviz: Exploratory Data Analysis made sweet. [online]. Ava
 Mahesh, B., 2020. Machine learning algorithms-a review. International Journal of Science and Research (IJSR).[Internet], 9(1), pp.381-386.
 
 Mandlem, S., 2023. The Vital Role of Exploratory Data Analysis (EDA) in Data Science [online]. Medium. Last updated: 18 December 2023. Available at: https://medium.com/@satya.sujji123/the-vital-role-of-exploratory-data-analysis-eda-in-data-science-23bc5a706358 [Accessed 05 July 2024]
+
+Ravanshad, A., 2018. Gradient Boosting vs Random Forest. [online] Available at: https://medium.com/@aravanshad/gradient-boosting-versus-random-forest-cfa3fa8f0d80 [Accessed 21 August 2024]
 
 Scikit-learn.org, n.d. 3.1. Cross-validation: evaluating estimator performance [online] Available at: https://scikit-learn.org/stable/modules/cross_validation.html [Accessed 09 July 2024]
 
