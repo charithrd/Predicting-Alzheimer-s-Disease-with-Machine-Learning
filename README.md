@@ -385,7 +385,7 @@ Ensure that each feature contributes equally to a algorythm and improves the con
 
 ![Test Train Split](Assets/LTTSplit.png)
 
-#### Method 01: Logistic Regression
+### Method 01: Logistic Regression
 
 A logistic regression model is created and trained using the train data created earlier. 
 
@@ -409,7 +409,11 @@ The model is then promoted to predict the labels for the test dataset.
  - We may need to examine other models where we can improve recall rate.
 
 
-#### Method 02: Random Forest Classifier
+### Method 02: Decision Tree Classifier
+
+
+
+### Method 03: Random Forest Classifier
 
 We are now deploying random forest classifier method which combines multiple decision trees to improve classification accuracy and robustness.
 
