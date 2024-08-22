@@ -411,6 +411,20 @@ The model is then promoted to predict the labels for the test dataset.
 
 ### Method 02: Decision Tree Classifier
 
+![Decision Tree Model](Assets/DecisionTreeModel.png)
+
+![Decision Tree Confusion Matrix](Assets/DecisionTreeConfusion.png)
+
+![Decision Tree Results](Assets/DecisionTreeResults.png)
+
+#### Decision Tree Classifier Insights:
+
+ - The model correctly predicted 200 True Positives and 365 True Negatives.
+ - Only 44 instances were predicted negative, where they were actually positive.
+ - The F1-scores also suggest that the model is slightly more effective in identifying class 0 (negative) compared to class 1 (positive).
+ - The model has a balanced precision and recall across both classes, indicating good overall performance.
+ - The model accuracy score  of 0.88 implies that the model correctly classified 88% of the instances.
+
 
 
 ### Method 03: Random Forest Classifier
