@@ -198,6 +198,8 @@ We are carrying out below checks to thoroughly interrogate the data.
 
 ![Data_Duplicated](Assets/DDuplicated.png)
 
+* Data Duplication check above confirms the existence of no duplicates. Hence, data cleaning isn’t necessary.
+
 #### Data Drop (Irrelevant Columns)
 
 * We have used a subsetted data frame to drop non-essential columns and assign them to a new data frame. This provides code clarity for future maintenance and streamline the dataset to focus on relevant features.
@@ -385,13 +387,27 @@ Ensure that each feature contributes equally to a algorythm and improves the con
 
 #### Method 01: Logistic Regression
 
-A logistic regression model is created and trained using the train data created earlier. The model is then promoted to predict the labels for the test dataset.
+A logistic regression model is created and trained using the train data created earlier. 
+
+The model is then promoted to predict the labels for the test dataset.
 
 ![Logistic Regression](Assets/LRegression.png)
 
 ![Logistic Regression](Assets/LClassificationReport.png)
 
 * Logistic Regression Accuracy Score = 82%
+
+![Logistic Confusion Matrix](Assets/Logistic_ConfusionM.png)
+
+##### Logistic Regression Insights:
+
+ - The model correctly predicted 355 True Negatives with 171 True Positives.
+ - However, 73 instances were predicted negative, where they were actually positive.
+ - The model has a reasonably good precision 79%, meaning it is fairly reliable when it predicts a positive case.
+ - The model accuracy score  of 0.82 implies that the model correctly classified 82% of the instances.
+ - This Model is not recommended for Alzheimer's Disease prediction given the moderately high False Positives & False Negatives.   
+ - We may need to examine other models where we can improve recall rate.
+
 
 #### Method 02: Random Forest Classifier
 
