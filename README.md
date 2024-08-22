@@ -439,12 +439,34 @@ By setting the 'random state' we can ensure that the same results are achieved a
 
 ![Confusion Matrix Results](Assets/ConfusionMatrixII.png)
 
-![Random Forest Classification Report](Assets/RFClassificationReport.png)
+![Random Forest Classification Report](Assets/RFClassifyReport.png)
 
-  - Random Forest Classifier Accuracy Score = 91%, indicating that 91% of the total instances are correctly classified.
-  - Precision vs. Recall: For class 0 (negative), recall is very high (0.98), meaning most actual true negative instances are identified, but precision is slightly lower (0.88). For class 1 (positive), precision     is       very high (0.95), but recall is significantly lower (0.79), indicating that while most predictions of true positives are correct, a notable portion of actual true positive instances are missed.
-  - The F1-scores reflect a good balance between precision and recall, but the lower F1-score for positives (0.86) suggests the model could benefit from improvements in recall for positive instances.
-  - Overall, the Random Forest classifier shows strong performance, particularly in terms of accuracy and precision.
+
+### Random Forest Classifier Insights:
+
+##### Confusion Matrix
+* The model correctly predicted 391 Ture Negatives and 193 True Positives.
+* False Negative was 51. These are incorrectly predicted as negative instances that were actually positive.
+* The Model is very precise, with few false positives, and it has a high overall accuracy. 
+
+##### Accuracy Score = 0.91
+* Indicates that 91% of the total instances are correctly classified.
+
+##### Precision vs. Recall
+* For class 0 (negative), recall is very high (0.98)
+  - meaning most actual true negative instances are identified, but precision is slightly lower (0.88).
+    
+* For class 1 (positive), precision is very high (0.95)
+  - recall is significantly lower (0.79), indicating that most predictions of true positives are correct.
+  - however, a notable portion of actual true positive instances are missed.
+
+##### F1-scores
+* reflect a good balance between precision and recall.
+* but the lower F1-score for positives (0.86) suggests the model could benefit from improvements in recall for positive instances.
+
+##### Performance Summary
+* Overall, the Random Forest classifier shows strong performance, particularly in terms of accuracy and precision.
+* However, we'll need to further fine tune this model to improve missed positive instances.
 
 
 > ## Chapter 5: Limitations
