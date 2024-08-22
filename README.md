@@ -179,7 +179,16 @@ These statistical summaries provide insights into the dataset's composition, out
 
 The next stage of this analysis is to delve into comprehensive data patterns and relationships associated with the data.
 
-Mendlem, S. (2023) claims that “Exploratory Data Analysis (EDA) serves as the compass that guides data scientists through the intricate terrain of datasets”. 
+Mendlem, S. (2023) claims that “Exploratory Data Analysis (EDA) serves as the compass that guides data scientists through the intricate terrain of datasets”.
+
+We are carrying out below checks to thoroughly interrogate the data.
+
+  - Check for Duplicates.
+  - Data Drop (Irrelevant Columns)
+  - Quick EDA with Sweetviz
+  - Plot the distribution of Numerical Features.
+  - Identifying key features help with the diagnosis.
+  - Univariate Analysis.
 
 =========================================================================================
 
