@@ -413,7 +413,7 @@ The model is then promoted to predict the labels for the test dataset.
 
 ![Decision Tree Model](Assets/DecisionTreeModel.png)
 
-![Decision Tree Confusion Matrix](Assets/DecisionTreeConfusion.png)
+![Decision Tree Confusion Matrix](Assets/DecisonTreeConfusion.png)
 
 ![Decision Tree Results](Assets/DecisionTreeResults.png)
 
